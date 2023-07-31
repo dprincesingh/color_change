@@ -1,0 +1,43 @@
+body{
+    background-color: bisque;
+}
+#conatiner{
+    height: 50vh;
+    width:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+.box{
+    margin-top: 5px;
+    height: 20vh;
+    width: 20vh;
+    border: 0.5px solid rgb(102, 66, 66);
+    border-radius: 50% 50% 50% 50%;
+    
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+#pink{
+    background-color: pink;
+}
+P{
+    text-align: center;
+    text-transform: capitalize;
+     font-size: 2em;
+}

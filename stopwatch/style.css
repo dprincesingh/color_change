@@ -1,0 +1,47 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+#stopwacth{
+    background-color: black;
+    padding: 15px 40px;
+    border-radius: 20px;
+  
+}
+#timerdisplay{
+    font-size: 15vh;
+    font-weight: 600;
+    color: rgb(117, 240, 144);
+    
+}
+button{
+    padding: 20px 45px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-weight: 400;
+    font-size: 3vh;
+    border-radius: 15px;
+    border-color: blueviolet;
+    cursor: pointer;
+}
+#btn1{
+    background-color: rgb(200, 221, 119);
+}
+#btn2{
+    background-color: rgb(156, 79, 35);
+}
+#btn3{
+    background-color: rgb(44, 161, 50);
+}

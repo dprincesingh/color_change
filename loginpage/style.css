@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #404040;
+    
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    color:	#e2353e;
+}
+h3{
+    
+    color: #ffff;
+}
+button{
+    background-color: #e2353e;
+    color: #ffff;
+    margin-bottom: 2vh;
+    border-radius: 20px;
+    
+}
+input{
+    width: 20vh;
+    padding: 10px;
+    color: rgb(54, 51, 54);
+    border-radius: 10px;
+    border: none;
+}

@@ -23,7 +23,7 @@ resetbtn.addEventListener('click', function () {
     clearInterval(timeid)
     min = 0
     sec = 0
-    msec = 0
+    msec = 0   
     displaytimer.innerHTML = `00:00:00`
 })
 
